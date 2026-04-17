@@ -57,7 +57,7 @@ export default function Experience() {
   const inView = useInView(titleRef, { once: true });
 
   return (
-    <section id="experience" className="py-24 relative overflow-hidden">
+    <section id="experience" className=" relative overflow-hidden">
       <div className="absolute top-0 right-0 w-80 h-80 bg-purple-600/5 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">

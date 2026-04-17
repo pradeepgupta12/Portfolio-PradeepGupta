@@ -270,7 +270,7 @@ export default function Projects() {
   const inView = useInView(titleRef, { once: true });
 
   return (
-    <section id="projects" className="py-24 relative overflow-hidden">
+    <section id="projects" className="py-20 relative overflow-hidden">
       <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-orange-500/5 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">

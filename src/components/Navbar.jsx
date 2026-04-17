@@ -57,15 +57,7 @@ export default function Navbar({ darkMode, toggleDark }) {
             ))}
           </div>
 
-          {/* Dark mode toggle */}
-          {/* <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={toggleDark}
-            className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:text-orange-400 transition-colors"
-          >
-            {darkMode ? <HiSun size={18} /> : <HiMoon size={18} />}
-          </motion.button> */}
+         
 
           {/* Hire Me Button */}
           <motion.a
